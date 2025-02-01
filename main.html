@@ -4,10 +4,49 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	    <style>
+        /* Container styling */
+        .container {
+            width: 80%; /* Container width */
+            margin: 0 auto; /* Centering the container */
+            padding: 20px; /* Padding inside the container */
+            border: 5px solid black; /* Border around the container */
+            border-radius: 15px; /* Rounded border */
+            text-align: center; /* Centering content */
+            display: flex; /* Use flexbox for inline layout */
+            justify-content: center; /* Center blocks horizontally */
+            gap: 20px; /* Space between blocks */
+        }
+
+        /* Block styling */
+        .red, .green, .yellow {
+            width: 100px; /* Block width */
+            height: 100px; /* Block height */
+            border-radius: 50%; /* Making the blocks circular */
+        }
+
+        .red {
+            background-color: red; /* Red color */
+        }
+
+        .green {
+            background-color: green; /* Green color */
+        }
+
+        .yellow {
+            background-color: yellow; /* Yellow color */
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	   <div class="container">
+        <!-- Color blocks inside the container -->
+        <div class="red"></div>
+        <div class="green"></div>
+        <div class="yellow"></div>
+    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
